@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,600&display=swap');
 
 body {
   background-color: #4a8864;
@@ -33,6 +34,7 @@ body {
 .about-user p {
   font-size: 18px;
   margin-left: 10px;
+
 }
 .about-user p strong {
   display: block;
@@ -61,6 +63,7 @@ body {
   padding: 10px 40px;
   border-radius: 10px;
   cursor: pointer;
+  font-family: 'Poppins', sans-serif;
 }
 .transactions-options {
   display: flex;
@@ -100,10 +103,3 @@ body {
   width: 100%;
   margin: 30px 0 90px;
 }
-
-/* https://www.youtube.com/watch?v=Flvz555H8pA  1:55  */
-
-
-/* https://www.youtube.com/watch?v=OeNU3SsfX00 */
-
-/* https://www.youtube.com/watch?v=a_1apiPZdEI */
