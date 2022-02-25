@@ -1,8 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,600&display=swap');
 
 body {
-  background-color: #4a8864;
+  background-color: #228664;
   font-family: 'Poppins', sans-serif;
+}
+.container {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 150px;
 }
 .header {
   padding: 20px 0;
@@ -26,6 +31,13 @@ body {
 }
 .about-user {
   display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  justify-content: space-between;
+}
+.about-user, .icons {
+  display: flex;
+  align-items: center;
 }
 .about-user img {
   width: 100%;
@@ -34,14 +46,16 @@ body {
 .about-user p {
   font-size: 18px;
   margin-left: 10px;
-
 }
 .about-user p strong {
   display: block;
   font-weight: 600;
 }
+.icons {
+  display: ;
+}
 .about-balance {
-  border-top: 1px solid rgba(0, 0, 0, 0.15);
+  border-top: 2px solid rgba(0, 0, 0, 0.15);
   display: flex;
   justify-content: space-between;
   padding: 30px 0;
@@ -115,14 +129,15 @@ body {
   margin: 20px 0;
 }
 .qrcode-transaction button {
-  background-color: #1F6F54;
-  border: none;
-  border-radius: 10px;
+  background-color: #228664;
   color: #fff;
   font-size: 18px;
   font-weight: 600;
   margin: 50px 0 20px;
   padding: 15px 130px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
 }
 .qrcode-transaction a {
   display: block;
@@ -167,12 +182,43 @@ body {
 .other-transactions input {
   width: 100%;
   background-color: #F4F4F4;
-  font-size: 16px;
-  height: 50px;
-  padding: 0 80px;
-  border-radius: 10px;
-  border: 1px solid #D2D2D2;
   color: #000;
   font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  height: 50px;
+  padding: 0 60px;
+  border-radius: 10px;
+  border: 1px solid #D2D2D2;
+  box-sizing: border-box;
 }
-.footer 
+.footer {
+  background-color: #fff;
+}
+.footer-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-menu li {
+  text-align: center;
+}
+.footer-menu li:nth-child(3) {
+  transform: translateY(-30px);
+}
+.footer-menu li a {
+  color: #000;
+  text-decoration: none;  
+}
+.footer-menu li a img {
+  width: 100%;
+  max-width: 40px;
+}
+.footer-menu li a p {
+  margin-top: 15px;
+}
+
+
+
+/* .footer ul li a img:nth-child(3) {
+  max width: 200px;
+} */
