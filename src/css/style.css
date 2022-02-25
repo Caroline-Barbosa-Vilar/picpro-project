@@ -1,0 +1,109 @@
+
+body {
+  background-color: #4a8864;
+  font-family: 'Poppins', sans-serif;
+}
+.header {
+  padding: 20px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+}
+.header .container {
+  display: flex;
+  align-items: center;
+}
+.header figure img {
+  width: 100%;
+  max-width: 140px;
+}
+.header .logo-picpro {
+  border-right: 1px solid rgba(255, 255, 255, 0.4);
+  margin-right: 15px;
+}
+.count-details {
+  color: #fff;
+  padding: 60px 0 30px;
+}
+.about-user {
+  display: flex;
+}
+.about-user img {
+  width: 100%;
+  max-width: 50px;
+}
+.about-user p {
+  font-size: 18px;
+  margin-left: 10px;
+}
+.about-user p strong {
+  display: block;
+  font-weight: bold;
+}
+.about-balance {
+  border-top: 1px solid rgba(0, 0, 0, 0.15);
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 0;
+  align-items: center;
+}
+.about-balance p {
+  font-size: 18px;
+  line-height: 22px;
+}
+.about-balance p strong {
+  display: block;
+  font-weight: 600;
+}
+.about-balance button {
+  background-color: #fff;
+  border: none;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 10px 40px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.transactions-options {
+  display: flex;
+  justify-content: space-between;
+}
+.transactions-options li {
+  background-color: #1F6F54;
+  width: 170px;
+  height: 177px;
+  border-radius: 10px;
+  padding: 40px 20px;
+}
+.transactions-options li img {
+  width: 100%;
+  max-width: 40px;
+}
+.transactions-options li p {
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 10px;
+}
+.transactions {
+  background-color: #fff;
+  border-radius: 20px 20px 0 0;
+  border-bottom: 15px solid rgb(235, 226, 226);
+  padding: 30px 0;
+}
+.payment-selection p {
+  margin-top: 10px;
+  font-size: 25px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.15);
+  padding: 30px 60px;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+}
+.payment-selection img {
+  width: 100%;
+  margin: 30px 0 90px;
+}
+
+/* https://www.youtube.com/watch?v=Flvz555H8pA  1:55  */
+
+
+/* https://www.youtube.com/watch?v=OeNU3SsfX00 */
+
+/* https://www.youtube.com/watch?v=a_1apiPZdEI */
