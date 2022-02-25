@@ -28,40 +28,46 @@
       <section class="count-details">
         <div class="container">
           <div class="about-user">
-            <img src="src/img/usuario.png" alt="user avatar">
-              <p>Hello, <strong>@user</strong></p>
-            </img>
-          </div>
+            <div class="about-user nome">
+              <img src="src/img/usuario.png" alt="user avatar">
+                <p>Hello, <strong>@user</strong></p>
+            </div>
             
-          <div class="icons">
-            <img src="src/img/presente.png" alt="gift icon">
-              <img src="src/img/chat.png" alt="chat icon">
-          </div>
+            <div class="about-user icons">
+              <img src="src/img/presente.png" alt="gift icon">
+                <img src="src/img/chat.png" alt="chat icon">
+            </div>
+          </div>  
 
           <div class="about-balance">
-            <p>PicPay Balance <strong>$10.00</strong></p>
-              <img src="src/img/visualizar.png" alt="eye visualization icon">
-                <button>Statement</button>
+            <div>
+              <p>PicPay Balance</p>
+                <div class="about-balance valor">
+                  <p>$10.00</p>
+                    <img src="src/img/visualizar.png" alt="eye visualization icon">
+                </div>
+            </div>    
+            <button id="btnStatement">Statement</button>
           </div>
 
           <ul class="transactions-options">
-            <li class="transaction-item">
-              <img src="src/img/qrcode.png" alt="QR Code icon">
+            <li class="transaction-item qrCode">
+              <figure><img src="src/img/qrcode.png" alt="QR Code icon"></figure>
                 <p>QR Code</p>
             </li>
 
-            <li class="transaction-item">
-              <img src="src/img/pix.png" alt="Pix icon">
+            <li class="transaction-item pix">
+              <figure><img src="src/img/pix.png" alt="Pix icon"></figure>
                 <p>Pix</p>
             </li>
 
-            <li class="transaction-item">
-              <img src="src/img/codigo.png" alt="Billet code icon">
+            <li class="transaction-item billet">
+              <figure><img src="src/img/codigo.png" alt="Billet code icon"></figure>
                 <p>Billet</p>
             </li>
 
-            <li class="transaction-item">
-              <img src="src/img/cobrar-icon.png" alt="Charge icon">
+            <li class="transaction-item charge">
+              <figure><img src="src/img/cobrar-icon.png" alt="Charge icon"></figure>
                 <p>Charge</p>
             </li>      
           </ul>
@@ -71,7 +77,7 @@
       <section class="transactions">
         <div class="container">
 
-          <div class="payment-selection">
+          <div class="payment-selection show">
             <p>Select a payment method</p>
               <img src="src/img/banner.png" alt="PicPay banner image">
           </div>
@@ -97,14 +103,14 @@
             </div>  
           </div>
 
-          <div class="other-transactions">
+          <div class="other-transactions billet">
             <img src="src/img/boleto.png" alt="Billet image">
               <h2>Pay with a barcode</h2>
                 <p>You can pay using your credit card or your balance held</p>
                  <input type="text" placeholder="Enter the bar code">
           </div>
 
-          <div class="other-transactions">
+          <div class="other-transactions charge">
             <img src="src/img/cobrar.png" alt="Charge icon">
               <h2>Charge</h2>
                 <p>Share your bill with your friends easily</p>
@@ -114,7 +120,6 @@
               <p><strong>PicPay Pals</strong> Share and track your expenses here</p>
             </div>  
           </div>
-
         </div>
       </section>
     </main>
@@ -136,7 +141,7 @@
             </a>
           </li>
 
-          <li class="footer-item">
+          <li class="footer-item pay">
             <a href="#">
               <img src="src/img/pagar.png" alt="Payment icon">
                 <p>To Pay</p>
@@ -159,5 +164,7 @@
         </ul>
       </div>
     </footer>
+
+    <script></script>
   </body>
 </html>
