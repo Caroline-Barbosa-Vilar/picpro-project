@@ -108,6 +108,61 @@ body {
   line-height: 25px;
   width: 80px;
 }
+
+/* ////////////////// */
+.accountDetailsSection__transactionItem:hover {
+  background-color: #fff;
+  color: #228664;
+}
+.accountDetailsSection__transactionItem figure {
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+  height: 50px;
+  width: 50px;
+}
+
+.accountDetailsSection__transactionItem--qrCode figure {
+  background-image: url("../img/qrcode.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+  height: 50px;
+  width: 50px;
+}
+.accountDetailsSection__transactionItem--pix figure {
+  background-image: url("../img/pix.png");
+}
+.accountDetailsSection__transactionItem--billet figure {
+  background-image: url("../img/codigo.png");
+  width: 100%;
+  max-width: 65px;
+}
+.accountDetailsSection__transactionItem--charge figure {
+  background-image: url("../img/cobrar-icon.png");
+  width: 100%;
+  max-width: 60px;
+}
+.accountDetailsSection__transactionItem--qrCode:hover figure {
+  background-image: url("../img/qrcode-verde.png");
+}
+.accountDetailsSection__transactionItem--pix:hover figure {
+  background-image: url("../img/pix-verde.png");
+}
+.accountDetailsSection__transactionItem--billet:hover figure {
+  background-image: url("../img/boleto-verde.png");
+}
+.accountDetailsSection__transactionItem--charge:hover figure {
+  background-image: url("../img/cobrar-verde.png");
+}
+.accountDetailsSection__transactionItem figure img {
+  width: 100%;
+  max-width: 25px;
+  height: 20px;
+  opacity: 0;
+}
+
+/* //////////////////// */
 .transactionSection {
   background-color: #fff;
   border-radius: 20px 20px 0 0;
