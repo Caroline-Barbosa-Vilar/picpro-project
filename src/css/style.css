@@ -35,10 +35,6 @@ body {
   margin-bottom: 20px;
   justify-content: space-between;
 }
-.about-user, .icons {
-  display: flex;
-  align-items: center;
-}
 .about-user img {
   width: 100%;
   max-width: 50px;
@@ -51,6 +47,10 @@ body {
   display: block;
   font-weight: 600;
 }
+.about-user, .icons {
+  display: flex;
+  align-items: center;
+}
 .icons {
   display: ;
 }
@@ -58,16 +58,20 @@ body {
   border-top: 2px solid rgba(0, 0, 0, 0.15);
   display: flex;
   justify-content: space-between;
-  padding: 30px 0;
+  padding: 0 0 30px 0;
   align-items: center;
 }
 .about-balance p {
-  font-size: 18px;
+  font-size: 25px;
   line-height: 22px;
+  margin-top: 30px;
 }
 .about-balance p strong {
   display: block;
   font-weight: 600;
+}
+.about-balance.valor {
+  align-self: center;
 }
 .about-balance button {
   background-color: #fff;
