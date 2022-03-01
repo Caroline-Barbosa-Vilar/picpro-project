@@ -108,7 +108,120 @@ body {
   line-height: 25px;
   width: 80px;
 }
-
+.transactionSection {
+  background-color: #fff;
+  border-radius: 20px 20px 0 0;
+  border-bottom: 15px solid #f0f0f0;
+  padding: 30px 0;
+  min-height: 450px;
+}
+.transactionSection .container div {
+  display: none;
+}
+.transactionSection .container div.mostrar {
+  display: block;
+}
+.transactionSection__selectionWarning p {
+  font-size: 25px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.15);
+  padding: 30px 60px;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+}
+.transactionSection__selectionWarning img {
+  margin: 30px 0 90px;
+  width: 100%;
+}
+.transactionSection__qrCode {
+  text-align: center;
+}
+.transactionSection__qrCode img {
+  max-width: 180px;
+}
+.transactionSection__qrCode p {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 20px 0;
+}
+.transactionSection__qrCode button {
+  background-color: #4a8864;
+  border: none;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 10px;
+  margin: 50px 0 20px;
+  padding: 15px 150px;
+  cursor: pointer;
+}
+.transactionSection__qrCode a {
+  display: block;
+  color: #000;
+  font-weight: bold;
+}
+.transactionSection__pix img {
+  width: 100%;
+  max-width: 150px;
+}
+.transactionSection__optionBox {
+  display: flex;
+  align-items: center;
+  border: 1px solid #d2d2d2;
+  max-width: 500px;
+  padding: 14px 10px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.15);
+  margin: 20px 0;
+}
+.transactionSection__optionBox img {
+  width: 100%;
+  max-width: 80px;
+  margin-right: 10px;
+}
+.transactionSection__optionBox p {
+  font-size: 16px;
+  line-height: 20px;
+}
+.transactionSection__billet img {
+  width: 100%;
+  max-width: 80px;
+}
+.transactionSection__billet h2 {
+  font-size: 20px;
+  font-weight: 600;
+}
+.transactionSection__billet p {
+  font-size: 18px;
+  max-width: 500px;
+  margin: 20px 0;
+}
+.transactionSection__billet input {
+  width: 100%;
+  background-color: #f4f4f4;
+  font-size: 16px;
+  height: 50px;
+  padding: 0 80px;
+  border-radius: 10px;
+  border: 1px solid #d2d2d2;
+  color: #000;
+  box-sizing: border-box;
+}
+.transactionSection__charge img {
+  width: 100%;
+  max-width: 80px;
+}
+.transactionSection__charge h2 {
+  font-size: 20px;
+  font-weight: 600;
+}
+.transactionSection__charge p {
+  font-size: 18px;
+  max-width: 500px;
+  margin: 20px 0;
+}
+.transactionSection__charge .transactionSection__optionBox p {
+  margin-left: 10px;
+}
 
 
 
