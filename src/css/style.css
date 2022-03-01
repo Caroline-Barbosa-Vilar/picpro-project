@@ -222,6 +222,34 @@ body {
 .transactionSection__charge .transactionSection__optionBox p {
   margin-left: 10px;
 }
+.footer {
+  background-color: #fff;
+}
+.footer__mainMenu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer__mainMenu li {
+  text-align: center;
+}
+.footer__mainMenu li a {
+  color: #000;
+  text-decoration: none;
+}
+.footer__mainMenu li a img {
+  width: 100%;
+  max-width: 40px;
+}
+.footer__mainMenu li a p {
+  margin-top: 20px;
+}
+.rodape__menuItem--pagar {
+  transform: translateY(-35px);
+}
+.footer__mainMenu footer__itemMenu--pay a img {
+  max-width: 80px;
+}
 
 
 
