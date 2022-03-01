@@ -1,10 +1,150 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,600&display=swap');
-
 body {
   background-color: #228664;
   font-family: 'Poppins', sans-serif;
 }
 .container {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 150px;
+}
+.header {
+  padding: 20px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+}
+.header .container {
+  display: flex;
+  align-items: center;
+}
+.header figure img {
+  width: 100%;
+  max-width: 140px;
+}
+.header .header__logoPicpro {
+  border-right: 1px solid #fff;
+  margin-right: 15px;
+}
+.accountDetailsSection {
+  color: #fff;
+  padding: 60px 0 30px;
+}
+.accountDetailsSection__aboutUser {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  justify-content: space-between;
+}
+.accountDetailsSection__aboutUser--name,
+.accountDetailsSection__aboutUser--icons {
+  display: flex;
+  align-items: center;
+}
+.accountDetailsSection__aboutUser--icons img {
+  margin: 0 10px;
+}
+.accountDetailsSection__aboutUser p {
+  font-size: 18px;
+  margin-left: 10px;
+}
+.accountDetailsSection__aboutUser img {
+  width: 100%;
+  max-width: 50px;
+}
+.accountDetailsSection__aboutUser p strong {
+  display: block;
+  font-weight: bold;
+}
+.accountDetailsSection__aboutBalance {
+  border-top: 1px solid #000;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 0;
+  align-items: center;
+}
+.accountDetailsSection__aboutBalance--amount {
+  display: flex;
+}
+.accountDetailsSection__aboutBalance p {
+  font-size: 18px;
+  line-height: 22px;
+}
+.accountDetailsSection__aboutBalance--amount p {
+  font-weight: 600;
+}
+.accountDetailsSection__aboutBalance--amount img {
+  display: block;
+  height: 18px;
+  width: 30px;
+  margin-left: 12px;
+}
+.accountDetailsSection__aboutBalance button {
+  background-color: #fff;
+  border: none;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 10px 60px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.accountDetailsSection__transactionOptions {
+  display: flex;
+  justify-content: space-between;
+}
+.accountDetailsSection__transactionOptions li {
+  background-color: #1f6f54;
+  width: 170px;
+  height: 177px;
+  border-radius: 20px;
+  padding: 40px 20px;
+  cursor: pointer;
+}
+.accountDetailsSection__transactionOptions li img {
+  width: 100%;
+  max-width: 40px;
+}
+.accountDetailsSection__transactionOptions li p {
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 10px;
+  line-height: 25px;
+  width: 80px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .container {
   width: 100%;
   max-width: 800px;
   margin: 0 150px;
@@ -219,7 +359,7 @@ body {
 }
 .footer-menu li a p {
   margin-top: 15px;
-}
+} */
 
 
 
