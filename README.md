@@ -6,7 +6,7 @@ https://bo83dev.github.io/digital-agc/
 
 Desktop 
 
-<img src="./src/mug-desktop-screen.gif" alt="The PicPro payment app screen gif">
+<img src="./src/picPro-desktop-screen.gif" alt="The PicPro payment app screen gif">
 
 <!-- Tablet
 
