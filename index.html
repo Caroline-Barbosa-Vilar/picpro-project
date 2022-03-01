@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@1,300&display=swap" rel="stylesheet"/>
+
     <title>PicPro</title>
     
     <link rel="stylesheet" href="src/css/reset.css">
@@ -14,6 +18,83 @@
   <body>
     <header class="header">
       <div class="container">
+        <figure class="header__logoPicpro">
+          <img src="src/img/logo-picpro.png" alt="Picpro Logo">
+        </figure>
+        <figure class="header__logoKenzie">
+          <img src="src/img/logo-kenzie.png" alt="Kenzie Logo">
+        </figure>
+      </div>
+    </header>
+
+    <main>
+      <section class="accountDetailsSection">
+        <div class="container">
+          <div class="accountDetailsSection__aboutUser">
+            <div class="accountDetailsSection__aboutUser--name">
+              <img src="src/img/usuario.png" alt="User avatar icon">
+              <p>Hello, <strong>@user</strong></p>
+            </div>
+
+            <div class="accountDetailsSection__aboutUser--icons">
+              <img src="src/img/presente.png" alt="Gift icon">
+              <img src="src/img/chat.png" alt="Chat icon">
+            </div>
+          </div>
+
+          <div class="accountDetailsSection__aboutBalance">
+            <div>
+              <p>PicPay Balance</p>
+              <div class="accountDetailsSection__aboutBalance--amount">
+                <p>$ 10.00</p>
+                <img src="src/img/visualizar.png" alt="View icon">
+              </div>
+            </div>
+            <button id="btnStatement">Statement</button>
+          </div>
+
+          <ul class="accountDetailsSection__transactionOptions">
+            <li class="accountDetailsSection__transactionItem accountDetailsSection__transactionItem--qrCode" id="1">
+              <figure>
+                <img src="src/img/qrcode.png" alt="QR Code icon">
+              </figure>
+              <p>QR Code</p>
+            </li>
+
+            <li class="accountDetailsSection__transactionItem accountDetailsSection__transactionItem--pix" id="2">
+              <figure>
+                <img src="src/img/pix.png" alt="Pix icon">
+              </figure>
+                <p>Pix</p>
+            </li>
+
+            <li class="accountDetailsSection__transactionItem accountDetailsSection__transactionItem--billet" id="3">
+              <figure>
+                <img src="src/img/codigo.png" alt="Billet icon">
+              </figure>
+              <p>Pay Billet</p>
+            </li>
+
+            <li class="accountDetailsSection__transactionItem accountDetailsSection__transactionItem--charge" id="4">
+              <figure>
+                <img src="src/img/cobrar-icon.png" alt="Charge icon">
+              </figure>
+              <p>Charge</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      
+
+    </main>
+
+
+
+
+
+    <!-- <header class="header">
+      <div class="container">
         <figure class="logo-picpro">
           <img src="src/img/logo-picpro.png" alt="picpro logo">
         </figure>
@@ -22,9 +103,9 @@
           <img src="src/img/logo-kenzie.png" alt="kenzie logo">
         </figure>
       </div>
-    </header>
+    </header> -->
 
-    <main>
+    <!-- <main>
       <section class="count-details">
         <div class="container">
           <div class="about-user">
@@ -122,9 +203,9 @@
           </div>
         </div>
       </section>
-    </main>
+    </main> -->
 
-    <footer class="footer">
+    <!-- <footer class="footer">
       <div class="container">
         <ul class="footer-menu">
           <li class="footer-item">
@@ -163,7 +244,7 @@
           </li>
         </ul>
       </div>
-    </footer>
+    </footer> -->
 
     <script src="index.js"></script>
   </body>
