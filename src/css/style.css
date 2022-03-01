@@ -173,7 +173,7 @@ body {
 .transactionSection .container div {
   display: none;
 }
-.transactionSection .container div.mostrar {
+.transactionSection .container div.show {
   display: block;
 }
 .transactionSection__selectionWarning p {
