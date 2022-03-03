@@ -2,7 +2,7 @@
 
 The payment screen of a payment app
 
-https://bo83dev.github.io/digital-agc/
+https://bo83dev.github.io/picpro-project/
 
 Desktop 
 
