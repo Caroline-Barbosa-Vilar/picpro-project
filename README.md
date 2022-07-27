@@ -2,10 +2,12 @@
 
 <h1 align='center'> PicPro Payment Screen </h1>
 
+<br>
+
 <div align='center'>
-	<a href="https://github.com/Bo83dev/digital-agc/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/Bo83dev/digital-agc"></a>
-	<a href="https://github.com/Bo83dev/digital-agc/network"><img alt="GitHub forks" src="https://img.shields.io/github/forks/Bo83dev/digital-agc"></a>
-	<a href="https://github.com/Bo83dev/digital-agc/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/Bo83dev/digital-agc"></a>
+	<a href="https://github.com/Caroline-Barbosa-Vilar/picpro-project/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/Caroline-Barbosa-Vilar/picpro-project"></a>
+	<a href="https://github.com/Caroline-Barbosa-Vilar/picpro-project/network"><img alt="GitHub forks" src="https://img.shields.io/github/forks/Caroline-Barbosa-Vilar/picpro-project"></a>
+	<a href="https://github.com/Caroline-Barbosa-Vilar/picpro-project/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/Caroline-Barbosa-Vilar/picpro-project"></a>
 </div>
 
 
@@ -22,6 +24,9 @@ _Para a versão em Português, clique [aqui](#portuguese)._
 
 - [Access the Project](#access-the-project)
 
+- [Future Improvements](#future-improvements)
+
+<br>
 
 ## Project description
 
@@ -31,6 +36,8 @@ Project developed for the PicPro event taught by [Kenzie Academy Brasil](https:/
 
 </p>
 
+<br>
+
 ## Technologies used
 
 <div>
@@ -39,21 +46,29 @@ Project developed for the PicPro event taught by [Kenzie Academy Brasil](https:/
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
 </div>
 
+<br>
 
 ## What I learned
 
 - How to hidde and show a section according to the user's form of payment choice with Javascript function.
 
+<br>
 
 ## Access the Project
 
-You can [access the project here](https://bo83dev.github.io/picpro-project/) 
+You can [access the project here](https://caroline-barbosa-vilar.github.io/picpro-project/) 
 
 Desktop 
 
 <img src="./src/picPro-desktop-screen.gif" alt="The PicPro payment app screen gif">
 
+<br>
 
+## Future Improvements
+
+- Simulate payment functionality using JS and API.
+
+<br>
 
 <div id="portuguese">
 
@@ -62,12 +77,12 @@ Desktop
 
 
 <div align='center'>
-	<a href="https://github.com/Bo83dev/digital-agc/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/Bo83dev/digital-agc"></a>
-	<a href="https://github.com/Bo83dev/digital-agc/network"><img alt="GitHub forks" src="https://img.shields.io/github/forks/Bo83dev/digital-agc"></a>
-	<a href="https://github.com/Bo83dev/digital-agc/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/Bo83dev/digital-agc"></a>	
+	<a href="https://github.com/Caroline-Barbosa-Vilar/picpro-project/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/Caroline-Barbosa-Vilar/picpro-project"></a>
+	<a href="https://github.com/Caroline-Barbosa-Vilar/picpro-project/network"><img alt="GitHub forks" src="https://img.shields.io/github/forks/Caroline-Barbosa-Vilar/picpro-project"></a>
+	<a href="https://github.com/Caroline-Barbosa-Vilar/picpro-project/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/Caroline-Barbosa-Vilar/picpro-project"></a>
 </div>
 
-
+<br>
 
 ### Tópicos 
 
@@ -79,7 +94,9 @@ Desktop
 
 - [Acesse o projeto](#acesse-o-projeto)
 
+- [Futuras melhorias](#futuras-melhorias)
 
+<br>
 
 ## Descrição do projeto 
 
@@ -87,6 +104,7 @@ Desktop
 Projeto desenvolvido para o evento PicPro ministrado pelos instrutores da [Kenzie Academy Brasil](https://kenzie.com.br/) em parceria com o [PicPay](https://picpay.com/).
 </p>
 
+<br>
 
 ## Tecnologias utilizadas
 
@@ -96,22 +114,29 @@ Projeto desenvolvido para o evento PicPro ministrado pelos instrutores da [Kenzi
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
 </div>
 
+<br>
 
 ## O que aprendi
 
 - Como esconder e mostrar uma seção de acordo com a forma de pagamento escolhida pelo usuário com a função Javascript.
 
-
+<br>
 
 ## Acesse o projeto
 
-Você pode [acessar o projeto aqui](https://bo83dev.github.io/picpro-project/) 
+Você pode [acessar o projeto aqui](https://caroline-barbosa-vilar.github.io/picpro-project/) 
 
 Desktop 
 
 <img src="./src/picPro-desktop-screen.gif" alt="The PicPro payment app screen gif">
 
+<br>
 
+## Futuras melhorias
+
+- Simular as funcionalidades de pagamento com uso de JS e API.
+
+<br>
 <hr>
 
 Developed with 🧡 by me!  [Carol Vilar](https://www.linkedin.com/in/carolinebarbosavilar/)
